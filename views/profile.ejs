@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>GypsyWorld</title>
+    <style>
+    body{background: blue; font-family: georgia; color: white; padding: 30px;}
+    h1{font-size: 40px; text-transform: uppercase; letter-spacing: 2px; text-align: center;}
+    h3{font-size: 30px; text-transform: uppercase; letter-spacing: 2px; text-align: center;}
+    p{font-size: 16px; text-align: center;}
+    form{font-size: 26px; text-transform: lowercase; letter-spacing: 1px; text-align: center;}
+    </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Welcome to Gypsy World</h1>
+        
+        <h3> Fill in the necessary output</h3>
+        
+        <form id="contact-form" method="POST" action="/profile/:id">
+            <br><label for="who">First Name</label>
+            <input type="text" name="who">
+            <br><label for="department">Last Name</label>
+            <input type="text" name="department">
+            <br><label for="email">Enter your email</label>
+            <input type="email" name="email"/>
+            <input type="submit" value="submit"/>
+        </form>
+        
+
+        
+        </div>
+    </body>
+</html>
